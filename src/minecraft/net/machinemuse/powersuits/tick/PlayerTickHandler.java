@@ -51,10 +51,7 @@ public class PlayerTickHandler implements ITickHandler {
 
         // double totalEnergyDrain = 0;
 
-        for (ItemStack stack : modularItemsEquipped) {
-            if (stack.getTagCompound().hasKey("ench")) {
-                stack.getTagCompound().removeTag("ench");
-            }
+     
         }
 
         boolean foundItemWithModule;
